@@ -13,11 +13,15 @@ class ApplicationController < Sinatra::Base
         erb :welcome
     end
 
+    get '/about' do
+        erb :about
+    end
+
     get '/all' do
         @cocktails=Cocktail.all
         erb :index
     end
-
+  
     get '/result' do
         exsist=(1..415).to_a 
         @cocktail = Cocktail.find_by(name: params[:name])

@@ -3,8 +3,14 @@
     text-align: center;
     color: white;
 }
+
 #welcome{
     background-image: url("../images/lisheng-chang-FvA7zYUVIdA-unsplash.jpg") !important;
+}
+#new{
+    background-color: white;
+    color: black;
+    text-align: center;
 }
 
 input[type=email], input[type=password], input[type=date], input[type=text], textarea[id=ingredient], textarea[id=instruction]{
@@ -16,3 +22,6 @@ input[type=email], input[type=password], input[type=date], input[type=text], tex
     box-sizing: border-box;
 }
 
+#containerIntro h1, #containerIntro p {
+    display: inline-block;
+}
