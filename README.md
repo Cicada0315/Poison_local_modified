@@ -1,6 +1,6 @@
 ![](public/images/readmeimage1.jpg)
 # Poison_local_modified
-Improved version of Poison.
+Poison is cocktail website. Guest can see a list of cocktails and the individual ingredient to make cocktails. People can also make an account to do utiliize more features such as store their favorite cocktail and even they can upload their own cocktails. This is improved version of previous Website. 
 
 ## Install
 ### Clone the repository
@@ -35,7 +35,7 @@ Everyone can search cocktails by it's name
 Cocktails and Search
 
 #### My Cocktail
-User can view their own cocktails.
+User can view their own cocktail list.
 
 #### Update and delete
 If user clicks the individual cocktail, it will redirect to the detail of cocktail and then there is two bottoms (edit or delete) that user can modify or delete that specific cocktail. 
